@@ -1,1 +1,1 @@
-https://johnmat97.github.io/rsschool-cv/
+https://stupefied-gates-c58810.netlify.app/
