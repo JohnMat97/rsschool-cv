@@ -1,6 +1,7 @@
 body {
     background: yellow;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
@@ -15,6 +16,10 @@ body {
     background: white;
     display: grid;
     grid-template-columns: 1fr 2fr;
+}
+
+.two-columns {
+    display: flex;
 }
 
 .imgPhoto {
@@ -34,15 +39,15 @@ img {
     object-fit: cover;
 }
 
-.left_Side {
+.container .left_Side {
     position: relative;
     background: orange;
     padding: 40px;
 }
 
-.right_Side {
+.container .right_Side {
     position: relative;
-    background: rgba(255, 145, 0, 0.205);
+    background: rgba(255, 60, 0, 0.5);
     padding: 40px;
 }
 
@@ -55,4 +60,90 @@ img {
 .profileText h2 {
     color: rgb(48, 38, 5);
     font-size: 20px;
+}
+
+.contact {
+    position: relative;
+}
+
+.title {
+    margin-top: 5px;
+    font-size: 20px;
+}
+
+.contact ul {
+    position: relative;
+    padding: 0%;
+}
+
+.contact ul li {
+    position: relative;
+    list-style: none;
+    margin: 10px 0;
+}
+
+.contact ul li .icon {
+    display: inline-block;
+}
+
+.courses span {
+    position: relative;
+    font-size: 20px;
+    font-style: italic;
+}
+
+.languages ul .text1 {
+    position: relative;
+    font-size: 25px;
+    font-style: oblique;
+}
+
+.languages ul .text2 {
+    position: relative;
+    font-size: 20px;
+    font-style: italic;
+}
+
+.hobbies ul {
+    list-style: none;
+    padding: 0%;
+}
+
+.skills ul {
+    list-style: none;
+    padding: 0%;
+}
+
+.code_example {
+    background-color: white;
+    font-size: 12px;
+    outline: 2px solid #000;
+    border-radius: 10px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;    
+}
+  
+footer a {
+    text-decoration: none;
+    color: #000000;
+}
+
+footer p {
+    color: #000000;
+    font-size: 16px;
+}
+  
+footer .github-image {
+    width: 100px;
+    height: 100px;
+}
+
+footer .rsschool-image {
+    width: 120px;
+    height: 100px;
 }
