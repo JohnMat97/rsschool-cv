@@ -45,3 +45,14 @@ img {
     background: rgba(255, 145, 0, 0.205);
     padding: 40px;
 }
+
+.profileText h1 {
+    color: rgb(48, 38, 5);
+    font-size: 25px;
+    margin-top: 10px;
+}
+
+.profileText h2 {
+    color: rgb(48, 38, 5);
+    font-size: 20px;
+}
