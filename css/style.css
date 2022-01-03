@@ -1,3 +1,149 @@
-.block1 {
-    background-color: yellow;
+body {
+    background: yellow;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 1000px;
+    margin: 50px;
+    background: white;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+.two-columns {
+    display: flex;
+}
+
+.imgPhoto {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+img {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.container .left_Side {
+    position: relative;
+    background: orange;
+    padding: 40px;
+}
+
+.container .right_Side {
+    position: relative;
+    background: rgba(255, 60, 0, 0.5);
+    padding: 40px;
+}
+
+.profileText h1 {
+    color: rgb(48, 38, 5);
+    font-size: 25px;
+    margin-top: 10px;
+}
+
+.profileText h2 {
+    color: rgb(48, 38, 5);
+    font-size: 20px;
+}
+
+.contact {
+    position: relative;
+}
+
+.title {
+    margin-top: 5px;
+    font-size: 20px;
+}
+
+.contact ul {
+    position: relative;
+    padding: 0%;
+}
+
+.contact ul li {
+    position: relative;
+    list-style: none;
+    margin: 10px 0;
+}
+
+.contact ul li .icon {
+    display: inline-block;
+}
+
+.courses span {
+    position: relative;
+    font-size: 20px;
+    font-style: italic;
+}
+
+.languages ul .text1 {
+    position: relative;
+    font-size: 25px;
+    font-style: oblique;
+}
+
+.languages ul .text2 {
+    position: relative;
+    font-size: 20px;
+    font-style: italic;
+}
+
+.hobbies ul {
+    list-style: none;
+    padding: 0%;
+}
+
+.skills ul {
+    list-style: none;
+    padding: 0%;
+}
+
+.code_example {
+    background-color: white;
+    font-size: 12px;
+    outline: 2px solid #000;
+    border-radius: 10px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;    
+}
+  
+footer a {
+    text-decoration: none;
+    color: #000000;
+}
+
+footer p {
+    color: #000000;
+    font-size: 16px;
+}
+  
+footer .github-image {
+    width: 100px;
+    height: 100px;
+}
+
+footer .rsschool-image {
+    width: 120px;
+    height: 100px;
 }
